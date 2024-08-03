@@ -17,7 +17,7 @@ CONSTANTS={
         TEXT_MUHURTHAM:"ముహూర్తం",
         TEXT_MUHURTHAM_DATETIME:"8 వ తేదీ సెప్టెంబర్ 2024 ఉదయం 7గం",
         TEXT_EVENT_LOCATION_ADDERESS:"గుబ్బా మ్యారేజ్ హాల్, తిరుమల",
-        TEXT_RECEPTION_TOP:"ముహూర్తం",
+        TEXT_RECEPTION_TOP:"రిసెప్షన్",
         TEXT_RECEPTION_DATETIME_TOP:"8 సెప్టెంబర్ 2024 ఆదివారం రాత్రి 6గం",
         TEXT_RECEPTION_ADDRESS_TOP:"హరి ఫంక్షన్ హాల్, పుత్తూరు",
         TEXT_EVENT_LOCATION_TOP:"Google మ్యాప్‌లో తెరవండి",
