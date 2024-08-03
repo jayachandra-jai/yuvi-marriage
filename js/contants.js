@@ -17,6 +17,10 @@ CONSTANTS={
         TEXT_MUHURTHAM:"ముహూర్తం",
         TEXT_MUHURTHAM_DATETIME:"8 వ తేదీ సెప్టెంబర్ 2024 ఉదయం 7గం",
         TEXT_EVENT_LOCATION_ADDERESS:"గుబ్బా మ్యారేజ్ హాల్, తిరుమల",
+        TEXT_RECEPTION_TOP:"ముహూర్తం",
+        TEXT_RECEPTION_DATETIME_TOP:"8 సెప్టెంబర్ 2024 ఆదివారం రాత్రి 6గం",
+        TEXT_RECEPTION_ADDRESS_TOP:"హరి ఫంక్షన్ హాల్, పుత్తూరు",
+        TEXT_EVENT_LOCATION_TOP:"Google మ్యాప్‌లో తెరవండి",
         TEXT_EVENT_MESSAGE:'"ప్రియమైన మీకు, మేము పెళ్లి తో ఒక్కటవుతున్నామని తెలియజేయడానికి సంతోషిస్తున్నాము, కావున మీరు సకుంటుంబ సపరివారి సమేతంగా మా వివాహ వేడుకకు విచ్చేసి మమ్మల్ని ఆశీర్వదిచాలి అని మనస్పూర్తిగా కోరుకుంటున్నాం"',
         TEXT_BTN_SAVE_DATE:"క్యాలెండర్‌కు జోడించండి",
         TEXT_BTN_LOCATION:"Google మ్యాప్‌లో తెరవండి",
@@ -38,8 +42,12 @@ CONSTANTS={
         TEXT_BTN_COMPLETE_INFO:"పూర్తి వివాహ వేడుక సమాచారం",
         TEXT_CONTACT_GROOM_NAME:"కె.జయచంద్ర, MCA",
         TEXT_CONTACT_GROOM_REL:"వరుడికి సోదరుడు",
-        TEXT_CONTACT_BRIDE_NAME:"కె మోతి, B.sc",
+        TEXT_CONTACT_BRIDE_NAME:"దిలీప్ కుమార్, B.tech",
         TEXT_CONTACT_BRIDE_REL:"వధువుకు సోదరుడు",
+        TEXT_CONTACT_BRIDE_NAME_1:"జయచంద్ర, MBA",
+        TEXT_CONTACT_BRIDE_REL_1:"వధువుకు సోదరుడు",
+        TEXT_CONTACT_BRIDE_NAME_2:"మోతిలాల్, MSc",
+        TEXT_CONTACT_BRIDE_REL_2:"వధువుకు సోదరుడు",
         TEXT_THANKYOU:"ధన్యవాదాలు",
         TEXT_ENGAGEMENT_TITLE:"<h2 class=\'uk-modal-title\'> \
         <h3 class=\'uk-margin-remove-bottom' style='color: white;text-transform: uppercase;'> \
@@ -230,6 +238,10 @@ CONSTANTS={
         TEXT_MUHURTHAM:"Muhurtham",
         TEXT_MUHURTHAM_DATETIME:"8th September 2024 @7.00am",
         TEXT_EVENT_LOCATION_ADDERESS:"At Gubba Marriage Hall, Tirumala",
+        TEXT_RECEPTION_TOP:"Reception",
+        TEXT_RECEPTION_DATETIME_TOP:"On 8th Sep 2024 Sunday 6pm",
+        TEXT_RECEPTION_ADDRESS_TOP:"Hari Function Hall, Puttur",
+        TEXT_EVENT_LOCATION_TOP:"Open In Google Map",
         TEXT_EVENT_MESSAGE:'"Love has chosen us to be together and we want to make it official. Join us for the celebration as we get Married. We wholeheartedly want to invite you and your entire family to attend our wedding ceremony and give us your sincere blessings for our further life"',
         TEXT_BTN_SAVE_DATE:" Add to calendar",
         TEXT_BTN_LOCATION:"Open In Google Map",
@@ -251,8 +263,12 @@ CONSTANTS={
         TEXT_BTN_COMPLETE_INFO:"COMPLETE EVENT INFORMATION",
         TEXT_CONTACT_GROOM_NAME:"K.Jayachandra, MCA",
         TEXT_CONTACT_GROOM_REL:"Brother to Groom",
-        TEXT_CONTACT_BRIDE_NAME:"Mothi, B.sc",
+        TEXT_CONTACT_BRIDE_NAME:"Dileep kumar, B.tech",
         TEXT_CONTACT_BRIDE_REL:"Brother to Bride",
+        TEXT_CONTACT_BRIDE_NAME_1:"Jayachandra, MBA",
+        TEXT_CONTACT_BRIDE_REL_1:"Brother to Bride",
+        TEXT_CONTACT_BRIDE_NAME_2:"Mothilal, MSc",
+        TEXT_CONTACT_BRIDE_REL_2:"Brother to Bride",
         TEXT_THANKYOU:"THANK YOU",
 
         TEXT_ENGAGEMENT_TITLE:"<h2 class=\'uk-modal-title\'> \
@@ -458,6 +474,12 @@ function loadConstants(lang){
     document.getElementById("TEXT_DOWNLOAD_WEDDING_CARD").innerHTML = CONSTANTS[lang].TEXT_BTN_DOWNLOAD_WEDDING_CARD;
     document.getElementById("TEXT_BTN_BRIDE_SIDE").innerHTML = CONSTANTS[lang].TEXT_BTN_BRIDE_SIDE;
     document.getElementById("TEXT_BTN_GROOM_SIDE").innerHTML = CONSTANTS[lang].TEXT_BTN_GROOM_SIDE;
+
+    document.getElementById("TEXT_RECEPTION_TOP").innerHTML = CONSTANTS[lang].TEXT_RECEPTION_TOP;
+    document.getElementById("TEXT_RECEPTION_DATE_TIME_TOP").innerHTML = CONSTANTS[lang].TEXT_RECEPTION_DATETIME_TOP;
+    document.getElementById("TEXT_RECEPTION_ADDRESS_TOP").innerHTML = CONSTANTS[lang].TEXT_RECEPTION_ADDRESS_TOP;
+    document.getElementById("TEXT_EVENT_LOCATION_TOP").innerHTML = CONSTANTS[lang].TEXT_EVENT_LOCATION_TOP;
+
     // Groom & Bride
     document.getElementById("TEXT_GROOM_BRIDE").innerHTML = CONSTANTS[lang].NAV_MENU_ITEM_2;
     document.getElementById("TEXT_GROOM_DESIG").innerHTML = CONSTANTS[lang].TEXT_GROOM_DESIG;
@@ -492,6 +514,10 @@ function loadConstants(lang){
     document.getElementById("TEXT_CONTACT_GROOM_REL").innerHTML = CONSTANTS[lang].TEXT_CONTACT_GROOM_REL;
     document.getElementById("TEXT_CONTACT_BRIDE_NAME").innerHTML = CONSTANTS[lang].TEXT_CONTACT_BRIDE_NAME;
     document.getElementById("TEXT_CONTACT_BRIDE_REL").innerHTML = CONSTANTS[lang].TEXT_CONTACT_BRIDE_REL;
+    document.getElementById("TEXT_CONTACT_BRIDE_NAME_1").innerHTML = CONSTANTS[lang].TEXT_CONTACT_BRIDE_NAME_1;
+    document.getElementById("TEXT_CONTACT_BRIDE_REL_1").innerHTML = CONSTANTS[lang].TEXT_CONTACT_BRIDE_REL_1;
+    document.getElementById("TEXT_CONTACT_BRIDE_NAME_2").innerHTML = CONSTANTS[lang].TEXT_CONTACT_BRIDE_NAME_2;
+    document.getElementById("TEXT_CONTACT_BRIDE_REL_2").innerHTML = CONSTANTS[lang].TEXT_CONTACT_BRIDE_REL_2;
     //Event Info
     document.getElementById("TEXT_ENGAGEMENT_INFO").innerHTML = CONSTANTS[lang].TEXT_ENGAGEMENT_INFO;
     document.getElementById("TEXT_ENGAGEMENT_TITLE").innerHTML = CONSTANTS[lang].TEXT_ENGAGEMENT_TITLE;

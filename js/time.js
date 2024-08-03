@@ -1,6 +1,6 @@
-const targetDay = new Date(2024 , 9, 8);
-targetDay.setHours(4);
-targetDay.setMinutes(30);
+const targetDay = new Date(2024 , 8, 8);
+targetDay.setHours(7);
+targetDay.setMinutes(0);
 
 // countdown
 let timer = setInterval(function() {
