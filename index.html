@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description"
+    content="This site provides the all informations of Jayakumar & Pavitra's marriage events with date,time and venue details">
+    <meta property="og:image" content="https://js-wedding.000webhostapp.com/pics/main_en.png">
+    <meta name="keywords" content="Sravani,Jayachandra,Jai,wedding">
+  <meta name="author" content="K.Jayachandra, MCA">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/timeline.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/css/uikit.min.css" />
+
+  <!-- <link rel="stylesheet" type="text/css" href="css/demo.css" /> -->
+  <title>Jayachandra & Sravani's marriage ceremony</title>
+  <link rel="icon" href="./pics/icon.png">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark navbar-expand-lg js-bg-primary fixed-top" >
+    <!-- <a class="navbar-brand" href="#" style="font-family: American Typewriter, serif;">J <i class="fab fa-gratipay"></i>
+      S</a> -->
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+    <div class="uk-navbar-left">
+      <a class="uk-margin-small-right" style="font-size: 25px;" uk-toggle="target: #offcanvas-nav-primary"><span
+          class="navbar-toggler-icon" style="color:white;"></span></a> <span
+        style="font-family: American Typewriter, serif;color: white;" id="TEXT_JAI_SRAVANI">Jayachandra &
+        Sravani</span>
+      
+    </div>
+
+    <div id="offcanvas-nav-primary" uk-offcanvas>
+      <div class="uk-offcanvas-bar" style="background-color: #000051">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <h3 id="TEXT_WELCOME">welcome !</h3>
+        <p>
+          <!-- <a class="nav-item nav-link " href="#">Home </a>
+          <a class="nav-item nav-link" href="#save-the-dates">Timelines</a>
+          <a class="nav-item nav-link" href="#profile">Profile</a>
+          <a class="nav-item nav-link" href="#">Contact</a> -->
+        <ul class="uk-nav uk-list uk-list-divider">
+          <li><a href="#main"><span id="TEXT_HOME"></span></a></li>
+          <li><a href="#profile"><span id="TEXT_PROFILE"></span></a></li>
+          <li class="uk-parent"><a href="#save-the-dates"><span id="TEXT_TIME_LINES"></span></a>
+            <!-- <ul class="uk-nav-sub uk-list uk-list-divider">
+              <li><a href="#engagement">Engagement</a></li>
+              <li><a href="#lagnapatrika">Lagnapatrika</a></li>
+              <li><a href="#reception">Reception</a></li>
+              <li><a href="#marriage">Marriage</a></li>
+              <li><a href="#lunch">Lunch</a></li>
+            </ul> -->
+          </li>
+          <li><a href="#contact"><span id="TEXT_TIME_CONTACT"></span></a></li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </nav>
+  <label id="main"></label>
+  <input type="hidden" id="language_selected" value="en"/>
+  <div class="container mt-3">
+    <br>
+    <div class="text-center mt-2">
+      <img src="./pics/drum.gif" height="75px" width="50px"> <img src="./pics/band.png" height="75px" width="150px">
+      <img src="./pics/drum.gif" height="75px" width="50px">
+    </div>
+    <div class="mt-3 text-center">
+      <a class="js-bg-primary rounded text-white p-1" style="font-size: 10px;" onclick="loadConstants('en')">English</a> | <a class="js-bg-primary rounded text-white p-1" style="font-size: 10px;" onclick="loadConstants('te')" >తెలుగు</a><br>
+      <!-- <span class="js-title">Muhurtham</span><br> -->
+      <span class="js-title" id="TEXT_MUHURTHAM"></span><br>
+      <span class="js-sub-title" id="TEXT_MUHURTHAM_DATETIME">10th Decemeber 2021 @4.30am</span><br>
+      <div id="timer" translate="no"></div>
+      <button type="button" class="btn btn-success mb-2"
+      onclick="location.href='https://calendar.app.google/HNbPESJbmdAZ77At5'"><i
+        class="far fa-calendar-check"></i> <span id="TEXT_SAVE_DATE"></span></button>
+        <br><span class="js-sub-title mt-2 mb-2" id="TEXT_EVENT_LOCATION_ADDERESS">At Eshwari function hall, Puttur</span><br>
+        <a href="https://maps.app.goo.gl/Rq7SW1cBWHruEcMdA"
+                  class="btn btn-success mt-2"><i class="fas fa-map-marker-alt"></i> <span id="TEXT_EVENT_LOCATION"></span></a>
+
+    </div>
+    
+    <div class="uk-placeholder p-2">
+      <blockquote cite="#">
+        <p class="uk-margin-small-bottom" style="font-style: italic;text-align: justify;font-size: 10px;" id="TEXT_EVENT_MESSAGE">"Love has
+          chosen us to be together
+          and we want to make it official. Join us for the celebration as we get Married. We wholeheartedly
+          want to invite you and your entire family to attend our wedding ceremony and give us
+          your sincere blessings for our further life"</p>
+        <footer id="TEXT_JAI_SRAVANI_FOOT">Jayachandra & Sravani</footer>
+      </blockquote>
+    </div>
+    <ul uk-accordion="multiple: true">
+      <li>
+          <a class="uk-accordion-title js-bg-primary text-white p-2 rounded" href="#"> <span id="TEXT_LISTEN_TO_LAGNAPATRIKA"></span></a>
+          <div class="uk-accordion-content">
+            <audio controls style="width: 100%;">
+              <source src="./store/js-wedding.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+      </li>
+      <li>
+          <a class="uk-accordion-title js-bg-primary text-white p-2 rounded"  href="#"> <span id="TEXT_DOWNLOAD_WEDDING_CARD"></span></a>
+          <div class="uk-accordion-content uk-text-center">
+            <a class="btn btn-outline-dark" download href="./store/Groom_Invitation.png"
+            style="font-weight: bolder;"><span id="TEXT_BTN_GROOM_SIDE"></span> <i class="fa fa-download"></i> </a>
+            <a class="btn btn-outline-dark" download href="./store/Bride_Invitation.png"
+            style="font-weight: bolder;"><span id="TEXT_BTN_BRIDE_SIDE"></span>  <i class="fa fa-download"></i> </a>
+          </div>
+      </li>
+  </ul>
+  <br><br><br><br><br>
+
+    <div class="pb-5 pt-5" id="profile">
+      <br><br>
+      <div class="uk-container" >
+        <div class="js-title"><hr class="m-2"><span id="TEXT_GROOM_BRIDE"></span><hr class="m-2"></div>
+        <div class="uk-panel uk-light uk-margin-medium">
+          
+         
+        </div>
+
+        <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+          <div>
+            <div class="uk-card uk-card-default" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+              <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                  <div class="uk-width-auto">
+                    <div uk-lightbox> <a href="./pics/groom.jpg"> <img class="uk-border-circle" width="100" height="100"
+                          src="./pics/groom.jpg"> </a></div>
+                  </div>
+                  <div class="uk-width-expand">
+                    <h3 class="uk-card-title uk-margin-remove-bottom"><span id="TEXT_GROOM_NAME"></span></h3>
+                    <div id="TEXT_GROOM_DESIG"></div>
+                    <!-- <p class="uk-text-meta uk-margin-remove-top">MCA<br>Software Engineer</p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="uk-card-body" id="TEXT_GROOM_ADDERESSS">
+                <!-- <p><b>Address:</b><br>5-127, N.G.O colony,
+                  Puttur, Chittoor(Dt), A.P-517583<br></p> -->
+              </div>
+              <div class="uk-card-footer text-center">
+                <div class="btn-group m-0" role="group" aria-label="Basic mixed styles example">
+                  <a href="https://www.facebook.com/jayachandra189" type="button" class="btn btn-outline-primary"><i
+                      class="fab fa-facebook"></i></a>
+                  <a href="https://maps.app.goo.gl/1aUnZaVNroDqyumd8" class="btn btn-outline-dark"><i
+                      class="fas fa-map-marker-alt"></i></a>
+                  <a href="https://www.linkedin.com/in/jayachandra-jai" type="button" class="btn btn-outline-primary"><i
+                      class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+              <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                  <div class="uk-width-auto">
+                    <div uk-lightbox> <a href="./pics/bride.jpg"> <img class="uk-border-circle" width="100" height="100"
+                          src="./pics/bride.jpg"> </a></div>
+                  </div>
+                  <div class="uk-width-expand">
+                    <h3 class="uk-card-title uk-margin-remove-bottom"><span id="TEXT_BRIDE_NAME"></span></h3>
+                    <div id="TEXT_BRIDE_DESIG"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="uk-card-body" id="TEXT_BRIDE_ADDERESSS">
+              </div>
+              <div class="uk-card-footer text-center">
+                <div class="btn-group m-0" role="group" aria-label="Basic mixed styles example">
+                  <a href="https://www.facebook.com/chandu.sravani.5811" type="button"
+                    class="btn btn-outline-primary"><i class="fab fa-facebook"></i></a>
+                  <a href="https://maps.app.goo.gl/qnQzrvM51ZU6WXEf8" class="btn btn-outline-dark"><i
+                      class="fas fa-map-marker-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <br><br><br><br><br><br>
+      <div class="container" id="save-the-dates">
+        <br><br><br>
+        <div class="page-header">
+          <div class="js-title" id="timeline"><hr class="m-1"><i class="fas fa-calendar-alt"></i> <span id="TEXT_TIME_LINES_HEAD"></span><hr class="m-1"></div>
+        </div>
+        <ul class="timeline">
+          
+          <li>
+            <div class="timeline-badge danger blink_me"><i class="fas fa-om"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title" id="TEXT_LAGNAPATRIKA">Lagnapatrika</h4>
+                <p><i class="fas fa-calendar-alt"></i> <span id="TEXT_LAGNAPATRIKA_DATE_TIME"></span></p>
+              </div>
+              <div class="timeline-body">
+                <p><a class="badge badge-danger" uk-toggle="target: #lagnapatrika"><span id="TEXT_LAGNAPATRIKA_MORE_DETAILS"></span></a></p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-badge danger blink_me"><i class="fas fa-ring"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title" id="TEXT_ENGAGEMENT"></h4>
+                <p><i class="fas fa-calendar-alt"></i> <span id="TEXT_ENGAGEMENT_DATE_TIME"></span></p>
+              </div>
+              <div class="timeline-body">
+                <a class="badge badge-danger" uk-toggle="target: #engagement"><span id="TEXT_ENGAGEMENT_MORE_DETAILS"></span></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-badge danger blink_me"><i class="fas fa-heart"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title" id="TEXT_MARRIAGE">Marriage</h4>
+                <p><i class="fas fa-calendar-alt"></i> <span id="TEXT_MARRIAGE_DATE_TIME"></span></p>
+              </div>
+              <div class="timeline-body">
+                <p><a uk-toggle="target: #marriage"class="badge badge-danger"><span id="TEXT_MARRIAGE_MORE_DETAILS"></span></a></a></p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-badge danger blink_me"><i class="fas fa-gifts"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title" id="TEXT_RECEPTION">Reception</h4>
+                <p><i class="fas fa-calendar-alt"></i> <span id="TEXT_RECEPTION_DATE_TIME"></span></p>
+              </div>
+              <div class="timeline-body">
+                <p><a class="badge badge-danger"  uk-toggle="target: #reception"> <span id="TEXT_RECEPTION_MORE_DETAILS"></a></p>
+              </div>
+            </div>
+          </li>
+          
+          <!-- <li>
+            <div class="timeline-badge danger blink_me"><i class="fas fa-utensils"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title" id="TEXT_LUNCH">Dinner</h4>
+                <p><i class="fas fa-calendar-alt"></i> <span id="TEXT_LUNCH_DATE_TIME"></span></p>
+              </div>
+              <div class="timeline-body">
+                <p><a uk-toggle="target: #lunch" class="badge badge-danger"><span id="TEXT_LUNCH_MORE_DETAILS"></span></a></a></p>
+              </div>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+
+    <div id="lagnapatrika" class="uk-modal-container" uk-modal>
+      <div class="uk-modal-dialog pt-5">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header m-2 pt-2" style="background-color: #000051;" id="TEXT_LAGNAPATRIKA_TITLE">
+          
+        </div>
+        <div class="uk-modal-body" uk-overflow-auto id="TEXT_LAGNAPATRIKA_INFO">
+        </div>
+        <div class="uk-modal-footer uk-text-center">
+          <div class="uk-button-group">
+            <button class="uk-button" style="color: white;" disabled><i class="fas fa-chevron-left"></i></button>
+            <button class="uk-button uk-button-danger uk-modal-close" style="color: white;"><i
+                class="fas fa-times"></i></button>
+            <a class="uk-button js-bg-primary" href="#engagement" uk-toggle style="color: white;"><i
+                class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div id="engagement" class="uk-modal-container" uk-modal>
+      <div class="uk-modal-dialog pt-5">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header m-2 pt-2" style="background-color: #000051;">
+          <h2 class="uk-modal-title" id="TEXT_ENGAGEMENT_TITLE">
+          </h2>
+        </div>
+        <div class="uk-modal-body" uk-overflow-auto id="TEXT_ENGAGEMENT_INFO">
+        </div>
+        <div class="uk-modal-footer uk-text-center">
+          <div class="uk-button-group">
+            <a class="uk-button js-bg-primary" href="#lagnapatrika" uk-toggle  style="color: white;"><i class="fas fa-chevron-left"></i></a>
+            <button class="uk-button uk-button-danger uk-modal-close" style="color: white;"><i
+                class="fas fa-times"></i></button>
+            <a class="uk-button js-bg-primary" href="#marriage" uk-toggle style="color: white;"><i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="marriage" class="uk-modal-container" uk-modal>
+      <div class="uk-modal-dialog pt-5">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header m-2 pt-2" style="background-color: #000051;" id="TEXT_MARRIAGE_TITLE">
+        </div>
+        <div class="uk-modal-body" uk-overflow-auto id="TEXT_MARRIAGE_INFO">
+        </div>
+        <div class="uk-modal-footer uk-text-center">
+          <div class="uk-button-group">
+            <a class="uk-button js-bg-primary" href="#engagement" uk-toggle  style="color: white;"><i class="fas fa-chevron-left"></i></a>
+            <button class="uk-button uk-button-danger uk-modal-close" style="color: white;"><i
+                class="fas fa-times"></i></button>
+                <a class="uk-button js-bg-primary" href="#reception" uk-toggle  style="color: white;"><i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="reception" class="uk-modal-container" uk-modal>
+      <div class="uk-modal-dialog pt-5">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header m-2 pt-2" style="background-color: #000051;" id="TEXT_RECEPTION_TITLE">
+        </div>
+        <div class="uk-modal-body" uk-overflow-auto id="TEXT_RECEPTION_INFO">
+        </div>
+        <div class="uk-modal-footer uk-text-center">
+          <div class="uk-button-group">
+            <a class="uk-button js-bg-primary" href="#marriage" uk-toggle  style="color: white;"><i class="fas fa-chevron-left"></i></a>
+            <button class="uk-button uk-button-danger uk-modal-close" style="color: white;"><i
+                class="fas fa-times"></i></button>
+            <button class="uk-button" style="color: white;" disabled><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>        
+      </div>
+    </div>
+
+    
+
+    <!-- <div id="lunch" class="uk-modal-container" uk-modal>
+      <div class="uk-modal-dialog pt-5">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header m-2 pt-2" style="background-color: #000051;" id="TEXT_LUNCH_TITLE">
+        </div>
+        <div class="uk-modal-body" uk-overflow-auto id="TEXT_LUNCH_INFO">
+        </div>
+        <div class="uk-modal-footer uk-text-center">
+          <div class="uk-button-group">
+            <a class="uk-button js-bg-primary" href="#marriage" uk-toggle  style="color: white;"><i class="fas fa-chevron-left"></i></a>
+            <button class="uk-button uk-button-danger uk-modal-close" style="color: white;"><i
+                class="fas fa-times"></i></button>
+            <button class="uk-button" style="color: white;" disabled><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="text-center"><a class="btn btn-outline-dark" uk-toggle="target: #lagnapatrika"><span id="TEXT_TIME_LINES_FOOT"></span></a></div>
+    
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <div id="contact">
+      <br><br><br>
+      <div class="js-title"><hr class="m-3"><i class="fas fa-id-card"></i> <span id="TEXT_CONTACT"></span>
+        <hr class="m-3"></div>
+      
+      <ul class="uk-flex-center m-2" style="color: #000051;" uk-tab  uk-switcher>
+        <li><a href="#"><span id="TEXT_CONTACT_GROOM"></span></a></li>
+          <li><a href="#"><span id="TEXT_CONTACT_BRIDE"></span></a></li>
+      </ul>
+      
+      <ul class="uk-switcher uk-margin m-2">
+          <li>
+            <div class="uk-placeholder">
+              <h3 class="uk-margin-remove-bottom">
+                <span id="TEXT_CONTACT_GROOM_NAME"></span></h3>
+              <p class="uk-text-meta uk-margin-remove-top uk-margin-remove-bottom"><span id="TEXT_CONTACT_GROOM_REL"></span> </p>
+              <p class="uk-margin-remove-top"><i class="fas fa-phone-square-alt"></i> <i class="fab fa-whatsapp-square" style="color: green;"></i> <a href="tel:9000204595" style="text-decoration: none !important; color:black">9000204595</a></p>
+            </div>
+        </li>
+        <li>
+          <div class="uk-placeholder">
+            <h3 class="uk-margin-remove-bottom">
+              <span id="TEXT_CONTACT_BRIDE_NAME"></span></h3>
+            <p class="uk-text-meta uk-margin-remove-top uk-margin-remove-bottom"><span id="TEXT_CONTACT_BRIDE_REL"></span></p>
+            <p class="uk-margin-remove-top"><i class="fas fa-phone-square-alt" style="color: black;"></i> <i class="fab fa-whatsapp-square" style="color: green;"></i> <a href="tel:7013579535" style="text-decoration: none !important; color:black">7013579535</a></p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <hr>
+    <!-- <b>Note:</b> You can change the page language by selecting your prefered language
+    <div id="google_translate_element"></div> -->
+    <hr>
+    <div class="js-title-primary"> <img src="./pics/drum2.gif" height="75px" width="50px"> Thank you <img
+        src="./pics/drum2.gif" height="75px" width="50px"></div>
+    <hr>
+    <br><br><br><br><br>
+  </div>
+  <!-- <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+    }
+  </script> -->
+  <script src="./js/contants.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit-icons.min.js"></script>
+
+  <script src="./js/time.js"></script>
+  <script type="text/javascript"
+    src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
