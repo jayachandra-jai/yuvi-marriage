@@ -229,7 +229,7 @@ CONSTANTS={
         TEXT_GROOM_DESIG:'<p class="uk-text-meta uk-margin-remove-top">B.tech<br>Software Engineer</p>',
         TEXT_BRIDE_DESIG:'<p class="uk-text-meta uk-margin-remove-top">B.tech</p>',
         TEXT_GROOM_ADDERESSS:"<p><b>Address:</b><br>5-127, N.G.O colony, Puttur, Tirupati(Dt), A.P-517583<br></p>",
-        TEXT_BRIDE_ADDERESSS:"<p><b>Address:</b><br>Pichatoor, Tirupati(Dt), A.P-517587<br></p>",
+        TEXT_BRIDE_ADDERESSS:"<p><b>Address:</b><br>Pichatur, Tirupati(Dt), A.P-517587<br></p>",
         NAV_MENU_HEAD:"Welcome !",
         NAV_MENU_ITEM_1:"Home",
         NAV_MENU_ITEM_2:"Bride & Groom",
