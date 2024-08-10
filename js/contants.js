@@ -15,7 +15,7 @@ CONSTANTS={
         NAV_MENU_ITEM_3:"ముఖ్యమైన తేదీలు",
         NAV_MENU_ITEM_4:"సంప్రదించండి",
         TEXT_MUHURTHAM:"ముహూర్తం",
-        TEXT_MUHURTHAM_DATETIME:"8 వ తేదీ సెప్టెంబర్ 2024 ఉదయం 7గం",
+        TEXT_MUHURTHAM_DATETIME:"8 వ తేదీ సెప్టెంబర్ 2024 ఉదయం 3 గం",
         TEXT_EVENT_LOCATION_ADDERESS:"గుబ్బా మ్యారేజ్ హాల్, తిరుమల",
         TEXT_RECEPTION_TOP:"రిసెప్షన్",
         TEXT_RECEPTION_DATETIME_TOP:"8 సెప్టెంబర్ 2024 ఆదివారం రాత్రి 6గం",
@@ -36,7 +36,7 @@ CONSTANTS={
         TEXT_LUNCH:"మధ్యాహ్న భోజనం (మరవలి)",
         TEXT_LAGNAPATRIKA_DATE_TIME:"9 ఆగస్ట్ 2024 శుక్రవారం మధ్యాహ్నం 12గం",
         TEXT_ENGAGEMENT_DATE_TIME:"7 సెప్టెంబర్ 2024 శనివారం సాయంత్రం 7గం",
-        TEXT_MARRIAGE_DATE_TIME:"8 సెప్టెంబర్ 2024 ఆదివారం ఉదయం 7 నుండి ఉదయం 8 గంటల మధ్య",
+        TEXT_MARRIAGE_DATE_TIME:"8 సెప్టెంబర్ 2024 ఆదివారం ఉదయం 3 నుండి ఉదయం 4.30 గంటల మధ్య",
         TEXT_RECEPTION_DATE_TIME:"8 సెప్టెంబర్ 2024 ఆదివారం రాత్రి 6గం",
         TEXT_LUNCH_DATE_TIME:"12 సెప్టెంబర్ 2024 ఆదివారం సాయంత్రం 6గం",
         TEXT_BTN_COMPLETE_INFO:"పూర్తి వివాహ వేడుక సమాచారం",
@@ -167,7 +167,7 @@ CONSTANTS={
         <b>తేదీ మరియు సమయం</b>\
       </dt>\
       <dd>\
-      8 సెప్టెంబర్ 2024 ఆదివారం ఉదయం 7 నుండి ఉదయం 8 గంటల మధ్య\
+      8 సెప్టెంబర్ 2024 ఆదివారం ఉదయం 3 నుండి ఉదయం 4.30 గంటల మధ్య\
       </dd>\
       <dt>\
         <b>Venue Address</b>\
@@ -236,7 +236,7 @@ CONSTANTS={
         NAV_MENU_ITEM_3:"Important dates",
         NAV_MENU_ITEM_4:"Contact",
         TEXT_MUHURTHAM:"Muhurtham",
-        TEXT_MUHURTHAM_DATETIME:"8th September 2024 @7.00am",
+        TEXT_MUHURTHAM_DATETIME:"8th September 2024 @3.00am",
         TEXT_EVENT_LOCATION_ADDERESS:"At Gubba Marriage Hall, Tirumala",
         TEXT_RECEPTION_TOP:"Reception",
         TEXT_RECEPTION_DATETIME_TOP:"On 8th Sep 2024 Sunday 6pm",
@@ -257,7 +257,7 @@ CONSTANTS={
         // TEXT_LUNCH:"LUNCH(MARAVALI)",
         TEXT_LAGNAPATRIKA_DATE_TIME:"On 9th Aug 2024 Friday 12pm",
         TEXT_ENGAGEMENT_DATE_TIME:"On 7th Sep 2024 Saturday 6pm",
-        TEXT_MARRIAGE_DATE_TIME:"On 8th Sep 2024 Sunday Between 7.00am and 8.00am",
+        TEXT_MARRIAGE_DATE_TIME:"On 8th Sep 2024 Sunday Between 3.00am and 4.30am",
         TEXT_RECEPTION_DATE_TIME:"On 8th Sep 2024 Sunday 6pm",
         // TEXT_LUNCH_DATE_TIME:"On 12th Dec 2024 Sunday 1pm",
         TEXT_BTN_COMPLETE_INFO:"COMPLETE EVENT INFORMATION",
@@ -394,7 +394,7 @@ CONSTANTS={
         <b>Date and Time</b>\
       </dt>\
       <dd>\
-        8th Sep 2024 Sunday Between 7.00am and 8.00am\
+        8th Sep 2024 Sunday Between 3.00am and 4.30am\
       </dd>\
       <dt>\
         <b>Venue Address</b>\
