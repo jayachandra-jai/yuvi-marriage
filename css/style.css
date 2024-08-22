@@ -33,10 +33,10 @@ html {
 }
 
 .step.step-completed {
-  color: #000051;
+  color: #023020;
 }
 .step.step-completed .circle {
-  background-color: #000051;
+  background-color: #023020;
 }
 
 /* Circle */
@@ -82,11 +82,11 @@ html {
 }
 
 .js-bg-primary {
-  background-color: #000051;
+  background-color: #023020;
 }
 
 .js-primary {
-  color: #000051;
+  color: #023020;
 }
 
 .js-bg-secondary {
@@ -117,25 +117,25 @@ html {
 }
 
 .days {
-  background: #000051;
+  background: #023020;
   color: white;
   margin: 1px;
 }
 
 .hours {
-  background: #000051;
+  background: #023020;
   color: white;
   margin: 1px;
 }
 
 .minutes {
-  background: #000051;
+  background: #023020;
   color: white;
   margin: 1px;
 }
 
 .seconds {
-  background: #000051;
+  background: #023020;
   color: white;
   margin: 1px;
 }
@@ -191,7 +191,7 @@ html {
 }
 
 .js-title-primary {
-  color: #000051;
+  color: #023020;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;

@@ -1,5 +1,5 @@
 const targetDay = new Date(2024 , 8, 8);
-targetDay.setHours(3);
+targetDay.setHours(6);
 targetDay.setMinutes(0);
 
 // countdown
